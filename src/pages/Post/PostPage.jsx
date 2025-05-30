@@ -134,7 +134,7 @@ export default function PostPage() {
     setLikes(newLikes);
     setHeartIcon(!isLiked ? "/icons/heart-filled.png" : "/icons/heart.svg");
     
-    if (isLiked) {
+    if (!isLiked) {////////////dddd
       // User is unliking the post
       const { error } = await supabase
         .from('user_likes')

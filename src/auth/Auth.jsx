@@ -3,7 +3,7 @@ import { createClient } from "@supabase/supabase-js"
 // import { supabase } from '../supabase'
 
 const AuthContext = createContext()
-export const supabase = createClient('https://cmknbeginwvrwzxmgdgy.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNta25iZWdpbnd2cnd6eG1nZGd5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTc4MjUwNjEsImV4cCI6MjAxMzQwMTA2MX0.k50TFr8xKAoU8_XKszvFs7WHkyhdGeM0bGfYzt4LG38')
+export const supabase = createClient('https://xoqvsbyhxetxxlfkhspo.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXZzYnloeGV0eHhsZmtoc3BvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTQ1NDY3ODYsImV4cCI6MjAzMDEyMjc4Nn0.PPpPdS1EhJ9EO3lRgjYIVcVp9EqYgFhQGsv5dGqMyuk')
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null)
